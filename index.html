@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+</head>
+<body class="flex justify-center mt-10">
+    <div class="border w-3xl px-8 py-10 rounded-md">
+        <div class="flex  mb-5 justify-between items-center ">
+            <div class="text-2xl">Login</div>
+            <div class="text-blue-500 "><a href="#">Don't have an account?</a></div>
+        </div>
+        <div>
+            <form action="#">
+                <div>
+                    <span>Email Address </span>
+                    <input type="text" name="mail" required placeholder="Email Address" class="w-full my-3 p-3 border rounded-md border-[#9E9E9E]">
+                </div>
+                <div>
+                    <span>Password</span>
+                    <input type="text" name="pass" required placeholder="Password" class="w-full my-3 p-3 border rounded-md border-[#9E9E9E]">    
+                </div>
+                <div class="flex my-3 justify-between items-center">
+                    <div class="text-[#9E9E9E]" >
+                        <input type="checkbox" name="check"> Keep me sign in
+                    </div>
+                    <div class="text-[#9E9E9E]"  >
+                        <a href="#">Forgot Password</a>
+                    </div>
+                </div>
+                <div>
+                    <input type="submit" value="Login" class="w-full my-3 p-3 bg-blue-600 text-white rounded-md">
+                </div>
+            </form>
+        </div>
+        <div class="flex mt-5 justify-between items-center">
+            <button class="bg-[#F5F5F5]  py-2 px-10 rounded-md ">
+                Google
+            </button>
+            <button class="bg-[#F5F5F5]  py-2 px-10 rounded-md ">
+                Twitter
+            </button>
+            <button class="bg-[#F5F5F5]  py-2 px-10  rounded-md">
+                Facebook
+            </button>
+        </div>
+    </div>
+</body>
+</html>
